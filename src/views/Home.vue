@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <div>
     <header class="custom__bg">
       <v-row>
         <v-col cols="6">
@@ -22,7 +22,7 @@
                 <v-btn tile depressed large color="success" class="mr-4">
                   EXPLORE
                 </v-btn>
-                <v-btn tile depressed outlined large color="warning">
+                <v-btn tile depressed outlined large color="green">
                   Learn More
                 </v-btn>
               </div>
@@ -44,14 +44,18 @@
               <v-col cols="6">
                 <v-card tile outlined class="mb-10 pa-2" color="transparent">
                   <h2 class="text-h5 success--text">About Us</h2>
-                  <div class="black--text body-1 font-weight-light">
+                  <div
+                    class="black--text body-1 text-h6 font-weight-light font-weight-light"
+                  >
                     AGROLOG is a company registered in Nigeria with a vision to
                     create social innovations that will lift the rural poor out
                     of poverty and transform them into the engine of economic
-                    growth.
+                    growth. Our Mission is to Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Ullam deleniti odio illo
+                    voluptatum consequuntur fuga!
                   </div>
                 </v-card>
-                <v-card tile outlined class="mb-10 pa-2" color="transparent">
+                <!-- <v-card tile outlined class="mb-10 pa-2" color="transparent">
                   <h2 class="text-h5 warning--text">Our Mission</h2>
                   <div class="black--text body-1 font-weight-light">
                     AGROLOG is a company registered in Nigeria with a vision to
@@ -59,7 +63,7 @@
                     of poverty and transform them into the engine of economic
                     growth.
                   </div>
-                </v-card>
+                </v-card> -->
               </v-col>
               <v-col>
                 <div class="composition">
@@ -103,7 +107,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text>
+                        <v-card-text class="body-1">
                           We are growing community of smallholder farmers that
                           produce quality Ginger/Tumeric and soy beans
                           sustainably. All produce that meet the AgroLog seal of
@@ -121,7 +125,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text>
+                        <v-card-text class="body-1">
                           We operate a Ginger Hub at Kachia in Kaduna state
                           where produce is evaluated, graded, branded for the
                           market as well as for value addition. On the forward
@@ -139,7 +143,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text>
+                        <v-card-text class="body-1">
                           Our community of farmers are organized in cooperative
                           clusters across 12 Local Government Areas that grow
                           ginger in Kaduna state. We have 10 service centers
@@ -157,7 +161,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text>
+                        <v-card-text class="body-1">
                           The core of that tradition being aflatoxin free,
                           quality produce that meets global best practices and
                           standards. The overarching goal is create an
@@ -243,7 +247,7 @@
         <h2
           class="text-h3 font-weight-light pt-4 white--text text-center custom__heading-white"
         >
-          OUR PROJECTIONS
+          <span class="warning--text font-weight-light">OUR</span> PROJECTIONS
         </h2>
         <v-card-text>
           <v-row justify="center" align="center">
@@ -303,25 +307,22 @@
           </v-btn>
         </v-card-text>
 
-        <v-card-text class="white--text pt-0">
+        <v-card-text class="white--text pt-0 body-1 font-weight-light">
           Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
           Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
           accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-          a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula
-          lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus
-          iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum
-          tempor vel ut orci. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus.
+          a sit amet dui.
         </v-card-text>
 
         <v-divider></v-divider>
 
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Agrolog</strong>
+        <v-card-text class="white--text body-1">
+          {{ new Date().getFullYear() }} —
+          <strong class="success--text">Agrolog</strong>
         </v-card-text>
       </v-card>
     </v-footer>
-  </v-app>
+  </div>
 </template>
 
 <script>
@@ -343,7 +344,7 @@ export default {
     url('../assets/ginger.jpeg');
   background-size: cover;
   background-attachment: fixed;
-  height: calc(100vh - 64px);
+  height: calc(100vh - 52px);
 }
 .custom__divider {
   width: 110px;

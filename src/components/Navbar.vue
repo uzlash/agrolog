@@ -26,14 +26,14 @@
         <span class="mb-n2 mt-1 text-capitalize caption">About Us</span>
       </v-tab>
       <v-tab
-        to="/discussion"
+        to="/activity"
         class="d-flex flex-column"
         active-class="success--text"
       >
         <span class="mb-n2 mt-1 text-capitalize caption">Our Activities</span>
       </v-tab>
       <v-tab
-        to="/groupchat"
+        to="/partner"
         class="d-flex flex-column"
         active-class="success--text"
       >
@@ -41,16 +41,16 @@
           >Our Business Partners</span
         >
       </v-tab>
-      <v-tab
-        to="/lectureshare"
-        class="d-flex flex-column"
-        active-class="success--text"
-      >
+      <v-tab to="/net" class="d-flex flex-column" active-class="success--text">
         <span class="mb-n2 mt-1 text-capitalize caption"
           >Social Safety Nets</span
         >
       </v-tab>
-      <v-tab to="/quiz" class="d-flex flex-column" active-class="success--text">
+      <v-tab
+        to="/contact"
+        class="d-flex flex-column"
+        active-class="success--text"
+      >
         <span class="mb-n2 mt-1 text-capitalize caption">Contact Us</span>
       </v-tab>
     </v-tabs>

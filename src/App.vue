@@ -1,12 +1,12 @@
 <template>
   <v-app>
     <Navbar />
-    <v-divider></v-divider>
     <v-main>
-      <v-divider></v-divider>
-      <transition name="slide-fade">
-        <router-view></router-view>
-      </transition>
+      <v-app>
+        <transition name="slide-fade">
+          <router-view></router-view>
+        </transition>
+      </v-app>
     </v-main>
   </v-app>
 </template>
