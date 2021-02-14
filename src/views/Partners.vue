@@ -1,5 +1,5 @@
 <template>
-  <div class="custom__bg1 grey lighten-4">
+  <div class="grey lighten-4">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -8,7 +8,6 @@
               <span class="warning--text font-weight-light">Our</span> Business
               Partners
             </h2>
-            <!-- <v-img height="200" src="../assets/ginger2.jpeg"></v-img> -->
           </v-card>
         </v-col>
       </v-row>
@@ -16,7 +15,7 @@
         <v-col cols="12">
           <v-card outlined tile min-height="40vh">
             <h2
-              class="text-h6 font-weight-light pa-2 grey--text text--darken-3 text-center custom__heading-orange"
+              class="text-h6 font-weight-light pa-2 grey--text text--darken-3 text-center custom__heading-green"
             >
               AgroLog works with both private and public stakeholders in
               agriculture to increase food security, quality, brand development
@@ -30,20 +29,15 @@
               following associations below
             </h2>
             <v-card-text class="body-1 pt-0">
-              <ol>
-                <li>Commodity Cooperatives consortium</li>
-                <li>Soya bean Farmers Association</li>
-                <li>Gurara Ginger Association</li>
-                <li>Kaduna State Cooperatives Federation</li>
-                <li>Rice Farmers Association</li>
-                <li>Groundnut Farmers Association</li>
-                <li>Sorghum Farmers Association</li>
-                <li>Turmeric farmers Association</li>
-                <li>Fisheries Society of Nigeria</li>
-                <li>Nigerian Agro Allied Farmers Association</li>
-                <li>Cattle Breeders Association of Nigeria</li>
-                <li>Poultry Association of Nigeria</li>
-              </ol>
+              <v-row>
+                <v-col cols="4" v-for="(partner, i) in partners" :key="i">
+                  <v-card tile outlined class="green lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      {{ partner.name }}
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+              </v-row>
             </v-card-text>
           </v-card>
         </v-col>
@@ -54,15 +48,26 @@
 
 <script>
 export default {
-  data: () => ({}),
+  data: () => ({
+    partners: [
+      { name: 'Commodity Cooperatives consortium' },
+      { name: 'Soya bean Farmers Association' },
+      { name: 'Gurara Ginger Association' },
+      { name: 'Kaduna State Cooperatives Federation' },
+      { name: 'Rice Farmers Association' },
+      { name: 'Groundnut Farmers Association' },
+      { name: 'Sorghum Farmers Association' },
+      { name: 'Tumeric Farmers Association' },
+      { name: 'Fisheries Society of Nigeria' },
+      { name: 'Nigerian Agro Allied Farmers Association' },
+      { name: 'Cattle Breeders Association of Nigeria' },
+      { name: 'Poultry Association of Nigeria' },
+    ],
+  }),
 }
 </script>
 
 <style lang="scss">
-.custom__bg1 {
-  height: 100vh;
-}
-
 .custom__card {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
     url('../assets/ginger.jpeg');

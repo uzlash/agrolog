@@ -1,5 +1,5 @@
 <template>
-  <div class="custom__bg1 grey lighten-4">
+  <div class="grey lighten-4">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -15,49 +15,99 @@
         <v-col cols="12">
           <v-card outlined tile min-height="40vh">
             <h2
-              class="text-h6 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-orange"
+              class="text-h6 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
             >
               Our activities can be broadly classified into the categories below
             </h2>
             <v-card-text class="body-1 pt-0">
-              <ol>
-                <li>Farming</li>
-                <li>Commodity trade</li>
-                <li>Agrologistics</li>
-                <li>Value chain development</li>
-                <li>Cluster management</li>
-                <li>Farm inputs management</li>
-                <li>Vocational training</li>
-              </ol>
+              <v-row>
+                <v-col cols="2">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Farming
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="2">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Commodity trade
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="2">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Agrologistics
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="3">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Value chain development
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="3">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Cluster management
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="3">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Farm inputs management
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="3">
+                  <v-card shaped outlined class="orange lighten-5">
+                    <v-card-title class="font-weight-light body-1">
+                      Vocational training
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h2
+                class="text-h6 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
+              >
+                On Site at Agrolog
+              </h2>
+              <Carousel :slides="slides" />
             </v-card-text>
           </v-card>
         </v-col>
       </v-row>
-      <v-row>
+      <!-- <v-row>
         <v-col cols="12">
           <v-card outlined tile min-height="50vh">
-            <h2
-              class="text-h6 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
-            >
-              On Site at Agrolog
-            </h2>
-            <v-card-text class="pt-0">
-              <Carousel />
-            </v-card-text>
           </v-card>
         </v-col>
-      </v-row>
+      </v-row> -->
     </v-container>
   </div>
 </template>
 
 <script>
-import Carousel from '@/components/Carousel'
+import Carousel from '@/components/Carousel-img'
 export default {
   components: {
     Carousel,
   },
-  data: () => ({}),
+  data: () => ({
+    slides: [
+      { src: require('../assets/activity1.png') },
+      { src: require('../assets/activity2.png') },
+      { src: require('../assets/activity3.png') },
+      { src: require('../assets/activity4.png') },
+      { src: require('../assets/activity5.png') },
+      { src: require('../assets/activity6.png') },
+      { src: require('../assets/activity7.png') },
+    ],
+  }),
 }
 </script>
 

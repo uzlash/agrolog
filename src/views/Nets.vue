@@ -1,5 +1,5 @@
 <template>
-  <div class="custom__bg1 grey lighten-4">
+  <div class="grey lighten-4">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -14,31 +14,84 @@
       </v-row>
       <v-row>
         <v-col cols="12">
-          <v-card outlined tile height="50vh">
-            <p class="px-16 py-10 body-1 grey--text text--darken-3">
-              Agrolog Limited (RC 1527119) is a newly established agribusiness
-              company specialized in production and trade of agricultural
-              commodities, agrologistics, various agricultural investment and
-              farm management. Innovations that assure the delivery of wholesome
-              food to consumers constitute the value proposition which AgroLog
-              brings to its clients. Institutional voids constitute great
-              impediments in food systems, creating chaos and disruptions in the
-              ecosystem. The desire to address this has taken us back to the
-              fundamentals of food production: THE FARM. AgroLog seeks to
-              entrench a culture of operational excellence that guarantees
-              transparency from farm to table. The primary objective is
-              traceability that ensures the consumer not only know the source
-              but the quality of food on the table. Consequently AgroLog has
-              contrived partnerships through Innovation Platforms (IPs) that
-              bring farmers and investors together enabling ecosystems that
-              allow for backward integration that builds farmers capacities,
-              flow of quality inputs, standardization of practices that ensure
-              high productivity and quality outputs. On the forward integration
-              front we work with partner clusters to achieve best practices in
-              postharvest handling that deliver quality to the table. Our
-              initial focus is on vegetables but our network is growing to
-              include commodities across the spectrum of agribusiness.
-            </p>
+          <v-card outlined tile>
+            <h2
+              class="text-h6 font-weight-light pa-2 grey--text text--darken-3 text-center custom__heading-green"
+            >
+              AgroLog has developed initiatives that allow our farmers to invest
+              a fraction of their harvest annually for guaranteed basic
+              healthcare services, basic education and monthly stipends when
+              they attain the statutory pensionable age. This can also serve as
+              guarantees for loans etc.
+            </h2>
+            <v-card-text class="body-1 pt-0">
+              <v-row>
+                <v-col cols="4">
+                  <v-card tile height="100%">
+                    <v-card-title class="d-flex justify-center">
+                      <v-icon size="100" color="orange lighten-2"
+                        >mdi-account-cash-outline</v-icon
+                      >
+                    </v-card-title>
+                    <v-divider></v-divider>
+                    <v-card-text>
+                      <p
+                        class="text-center text-h6 font-weight-light success--text mb-1"
+                      >
+                        Scholarship per child
+                      </p>
+                      <p class="text-center body-1">
+                        3 bags of wet ginger
+                      </p>
+                    </v-card-text>
+                  </v-card>
+                </v-col>
+                <v-col cols="4">
+                  <v-card tile height="100%">
+                    <v-card-title class="d-flex justify-center">
+                      <v-icon size="100" color="orange lighten-2"
+                        >mdi-heart-pulse</v-icon
+                      >
+                    </v-card-title>
+                    <v-divider></v-divider>
+                    <v-card-text>
+                      <p
+                        class="text-center text-h6 font-weight-light success--text mb-1"
+                      >
+                        Health Care (Primary and Basic Surgeries)
+                      </p>
+                      <p class="text-center body-1">
+                        4 bags per family member average total No. of bags to be
+                        paid to the social foundation: 43 bags (for a family of
+                        7)
+                      </p>
+                    </v-card-text>
+                  </v-card>
+                </v-col>
+                <v-col cols="4">
+                  <v-card tile height="100%">
+                    <v-card-title class="d-flex justify-center">
+                      <v-icon size="100" color="orange lighten-2"
+                        >mdi-chart-areaspline</v-icon
+                      >
+                    </v-card-title>
+                    <v-divider></v-divider>
+                    <v-card-text>
+                      <p
+                        class="text-center text-h6 font-weight-light success--text mb-1"
+                      >
+                        Social Investment Program
+                      </p>
+                      <p class="text-center body-1">
+                        Five years in the social investment program qualifies a
+                        farmer for monthly allowance when they attain the
+                        statutory pensionable age
+                      </p>
+                    </v-card-text>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-card-text>
           </v-card>
         </v-col>
       </v-row>
@@ -48,15 +101,26 @@
 
 <script>
 export default {
-  data: () => ({}),
+  data: () => ({
+    partners: [
+      { name: 'Commodity Cooperatives consortium' },
+      { name: 'Soya bean Farmers Association' },
+      { name: 'Gurara Ginger Association' },
+      { name: 'Kaduna State Cooperatives Federation' },
+      { name: 'Rice Farmers Association' },
+      { name: 'Groundnut Farmers Association' },
+      { name: 'Sorghum Farmers Association' },
+      { name: 'Tumeric Farmers Association' },
+      { name: 'Fisheries Society of Nigeria' },
+      { name: 'Nigerian Agro Allied Farmers Association' },
+      { name: 'Cattle Breeders Association of Nigeria' },
+      { name: 'Poultry Association of Nigeria' },
+    ],
+  }),
 }
 </script>
 
 <style lang="scss">
-.custom__bg1 {
-  height: 100vh;
-}
-
 .custom__card {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
     url('../assets/ginger.jpeg');

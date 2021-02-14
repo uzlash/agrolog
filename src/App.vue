@@ -2,7 +2,7 @@
   <v-app>
     <Navbar />
     <v-main>
-      <v-app>
+      <v-app class="grey lighten-4">
         <transition name="slide-fade">
           <router-view></router-view>
         </transition>

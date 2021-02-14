@@ -13,7 +13,7 @@
               <div class="text-h1 font-weight-light success--text">
                 AGROLOG
               </div>
-              <p class="text-h5 font-weight-light grey--text text--darken-2">
+              <p class="text-h5 font-weight-light grey--text text--darken-3">
                 Creating innovations to lift and transform the poor into the
                 engine of economic growth.
               </p>
@@ -31,11 +31,12 @@
         </v-col>
       </v-row>
     </header>
+    <!-- WHO WE ARE -->
     <section class="grey lighten-4">
       <v-container>
         <v-card outlined tile height="500px" color="white">
           <h2
-            class="text-h3 font-weight-light pt-8 grey--text text--darken-3 text-center custom__heading-green"
+            class="text-h4 font-weight-light pt-8 grey--text text--darken-3 text-center custom__heading-green"
           >
             WHO WE ARE
           </h2>
@@ -45,7 +46,7 @@
                 <v-card tile outlined class="mb-10 pa-2" color="transparent">
                   <h2 class="text-h5 success--text">About Us</h2>
                   <div
-                    class="black--text body-1 text-h6 font-weight-light font-weight-light"
+                    class="grey--text text--darken-3 text-h6 font-weight-light font-weight-light"
                   >
                     AGROLOG is a company registered in Nigeria with a vision to
                     create social innovations that will lift the rural poor out
@@ -55,15 +56,6 @@
                     voluptatum consequuntur fuga!
                   </div>
                 </v-card>
-                <!-- <v-card tile outlined class="mb-10 pa-2" color="transparent">
-                  <h2 class="text-h5 warning--text">Our Mission</h2>
-                  <div class="black--text body-1 font-weight-light">
-                    AGROLOG is a company registered in Nigeria with a vision to
-                    create social innovations that will lift the rural poor out
-                    of poverty and transform them into the engine of economic
-                    growth.
-                  </div>
-                </v-card> -->
               </v-col>
               <v-col>
                 <div class="composition">
@@ -86,11 +78,12 @@
         </v-card>
       </v-container>
     </section>
-    <section>
+    <!-- WHAT WE DO -->
+    <section class="white">
       <v-container>
         <v-card tile outlined color="white">
           <h2
-            class="text-h3 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-orange"
+            class="text-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-orange"
           >
             WHAT WE DO
           </h2>
@@ -179,10 +172,157 @@
         </v-card>
       </v-container>
     </section>
+    <!-- AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT -->
+    <section>
+      <v-container>
+        <v-card tile outlined color="white">
+          <h2
+            class="text-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
+          >
+            AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT
+          </h2>
+          <v-card-text>
+            <v-carousel
+              show-arrows
+              height="400"
+              hide-delimiter-background
+              light
+            >
+              <v-carousel-item>
+                <v-row>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/guLWS2hD1mE"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/93H4QrBtlys"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></v-col>
+                </v-row>
+              </v-carousel-item>
+              <v-carousel-item>
+                <v-row>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/0cvOc_s67Ko"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/__84dO5VYjQ"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></v-col>
+                </v-row>
+              </v-carousel-item>
+              <v-carousel-item>
+                <v-row>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/JfTZNttAayA"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/QyHWVrHFloA"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></v-col>
+                </v-row>
+              </v-carousel-item>
+              <v-carousel-item>
+                <v-row>
+                  <v-col cols="6">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/NJs_Gd80EBQ"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
+                </v-row>
+              </v-carousel-item>
+            </v-carousel>
+            <div></div>
+          </v-card-text>
+        </v-card>
+      </v-container>
+    </section>
+    <!-- OUR SERVICES -->
+    <section class="grey lighten-4">
+      <v-card tile outlined color="white">
+        <h2
+          class="text-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
+        >
+          OUR SERVICES
+        </h2>
+        <v-card-text>
+          <v-row>
+            <v-col cols="6">
+              <!-- <v-img
+                height="300"
+                contain
+                src="../assets/undraw_services_5tv9(2).svg"
+              ></v-img> -->
+              <v-card tile outlined>
+                <v-img
+                  height="300"
+                  width="100%"
+                  src="../assets/farming_women.jpg"
+                ></v-img>
+              </v-card>
+            </v-col>
+            <v-col cols="6">
+              <div class="text-center mt-16 text-h6 font-weight-light">
+                Agrolog provides its community of farmers servces in both
+                backward and forward integration components of the value chains.
+                For details on services click below.
+              </div>
+              <div class="text-center mt-4">
+                <v-btn color="#f9952d" small outlined tile>Click here</v-btn>
+              </div>
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </section>
+    <!-- HOW YOU CAN JOIN US -->
     <section class="grey lighten-4">
       <v-card tile outlined color="grey lighten-4">
         <h2
-          class="text-h3 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
+          class="text-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
         >
           HOW YOU CAN JOIN US
         </h2>
@@ -201,6 +341,13 @@
             </v-col>
             <v-col cols="6">
               <v-card tile outlined color="white">
+                <!-- <v-card color="transparent" tile outlined>
+                  <v-img
+                    height="300"
+                    width="100%"
+                    src="../assets/join_us.jpg"
+                  ></v-img>
+                </v-card> -->
                 <v-img
                   height="300"
                   contain
@@ -212,40 +359,11 @@
         </v-card-text>
       </v-card>
     </section>
-    <section class="grey lighten-4">
-      <v-card tile outlined color="white">
-        <h2
-          class="text-h3 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
-        >
-          OUR SERVICES
-        </h2>
-        <v-card-text>
-          <v-row>
-            <v-col cols="6">
-              <v-img
-                height="300"
-                contain
-                src="../assets/undraw_services_5tv9(2).svg"
-              ></v-img>
-            </v-col>
-            <v-col cols="6">
-              <div class="text-center mt-16 text-h6 font-weight-light">
-                Agrolog provides its community of farmers servces in both
-                backward and forward integration components of the value chains.
-                For details on services click below.
-              </div>
-              <div class="text-center mt-4">
-                <v-btn color="#f9952d" small outlined tile>Click here</v-btn>
-              </div>
-            </v-col>
-          </v-row>
-        </v-card-text>
-      </v-card>
-    </section>
+    <!-- OUR PROJECTIONS -->
     <section class="grey lighten-4">
       <v-card tile outlined color="white" class="custom__bg">
         <h2
-          class="text-h3 font-weight-light pt-4 white--text text-center custom__heading-white"
+          class="text-h4 font-weight-light pt-4 white--text text-center custom__heading-white"
         >
           <span class="warning--text font-weight-light">OUR</span> PROJECTIONS
         </h2>
@@ -292,6 +410,7 @@
         </v-card-text>
       </v-card>
     </section>
+    <!-- FOOTER -->
     <v-footer dark padless>
       <v-card flat tile class="grey darken-3 white--text text-center">
         <v-card-text>
@@ -308,10 +427,12 @@
         </v-card-text>
 
         <v-card-text class="white--text pt-0 body-1 font-weight-light">
-          Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-          Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-          accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-          a sit amet dui.
+          Agrolog Limited (RC 1527119) is a newly established agribusiness
+          company specialized in production and trade of agricultural
+          commodities, agrologistics, various agricultural investment and farm
+          management. Innovations that assure the delivery of wholesome food to
+          consumers constitute the value proposition which AgroLog brings to its
+          clients.
         </v-card-text>
 
         <v-divider></v-divider>
