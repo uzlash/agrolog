@@ -55,8 +55,14 @@
       </v-tab>
     </v-tabs>
     <div class="d-flex ml-8">
-      <v-btn small outlined color="success" class="mr-4">Sign in</v-btn>
-      <v-btn small depressed color="warning">Sign Up</v-btn>
+      <!-- <v-btn small outlined color="success" class="mr-4">Sign in</v-btn> -->
+      <v-btn
+        small
+        depressed
+        color="warning"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdkINs4WMlK4bSQ6bljdtKzHVBIpvYVNUXRK_9PFs5XKIsFgA/viewform"
+        >Register</v-btn
+      >
     </div>
   </v-app-bar>
 </template>

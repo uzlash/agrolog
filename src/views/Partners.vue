@@ -30,12 +30,23 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="4" v-for="(partner, i) in partners" :key="i">
-                  <v-card tile outlined class="green lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      {{ partner.name }}
-                    </v-card-title>
-                  </v-card>
+                <v-col cols="4">
+                  <v-img
+                    contain
+                    height="492"
+                    src="../assets/undraw_agreement_aajr.svg"
+                  ></v-img>
+                </v-col>
+                <v-col cols="8">
+                  <v-row>
+                    <v-col cols="6" v-for="(partner, i) in partners" :key="i">
+                      <v-card tile outlined class="green lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          {{ partner.name }}
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                  </v-row>
                 </v-col>
               </v-row>
             </v-card-text>

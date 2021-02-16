@@ -114,6 +114,24 @@
           </v-card>
         </v-col>
       </v-row>
+      <div class="text-center ma-2">
+        <v-snackbar v-model="snackbar" color="success">
+          Message Submitted Successfully
+          <template v-slot:action="{ attrs }">
+            <v-btn color="white" text v-bind="attrs" @click="snackbar = false">
+              Close
+            </v-btn>
+          </template>
+        </v-snackbar>
+        <v-snackbar v-model="snackbar1" color="error">
+          Error Submitting Message
+          <template v-slot:action="{ attrs }">
+            <v-btn color="white" text v-bind="attrs" @click="snackbar1 = false">
+              Close
+            </v-btn>
+          </template>
+        </v-snackbar>
+      </div>
     </v-container>
   </div>
 </template>
@@ -126,6 +144,8 @@ export default {
     message: '',
     loading: false,
     disabled: false,
+    snackbar: false,
+    snackbar1: false,
     rules: {
       required: (v) => !!v || 'Field is required',
       counter: (v) => (v && v.length >= 3) || 'Minimum length is 3 characters',
@@ -135,6 +155,43 @@ export default {
       },
     },
   }),
+  methods: {
+    submitForm() {
+      const contact = {
+        name: this.name,
+        email: this.email,
+        message: this.message,
+      }
+      console.log('Contact', JSON.stringify(contact))
+      if (this.$refs.form.validate()) {
+        this.disabled = true
+        this.loading = true
+        fetch('https://agrolog.herokuapp.com/api/v1/contact/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(contact),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            this.disabled = false
+            this.loading = false
+            console.log('Data>>>', data)
+            this.snackbar = true
+            setTimeout(() => {
+              this.$router.push('/')
+            }, 2000)
+          })
+          .catch((err) => {
+            this.disabled = false
+            this.loading = false
+            this.snackbar1 = true
+            console.log('Error>>>', err)
+          })
+      }
+    },
+  },
 }
 </script>
 

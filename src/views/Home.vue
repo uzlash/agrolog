@@ -19,10 +19,24 @@
               </p>
               <v-divider class="custom__divider success">&nbsp;</v-divider>
               <div class="mt-6">
-                <v-btn tile depressed large color="success" class="mr-4">
+                <v-btn
+                  href="#who__we__are"
+                  tile
+                  depressed
+                  large
+                  color="success"
+                  class="mr-4"
+                >
                   EXPLORE
                 </v-btn>
-                <v-btn tile depressed outlined large color="green">
+                <v-btn
+                  href="#agrolog__projects"
+                  tile
+                  depressed
+                  outlined
+                  large
+                  color="green"
+                >
                   Learn More
                 </v-btn>
               </div>
@@ -32,9 +46,15 @@
       </v-row>
     </header>
     <!-- WHO WE ARE -->
-    <section class="grey lighten-4">
+    <section class="grey lighten-4" id="who__we__are">
       <v-container>
-        <v-card outlined tile height="500px" color="white">
+        <v-card
+          outlined
+          tile
+          height="500px"
+          color="white"
+          v-animate-onscroll="'flip'"
+        >
           <h2
             class="text-h4 font-weight-light pt-8 grey--text text--darken-3 text-center custom__heading-green"
           >
@@ -43,7 +63,13 @@
           <v-card-text class="mt-12">
             <v-row>
               <v-col cols="6">
-                <v-card tile outlined class="mb-10 pa-2" color="transparent">
+                <v-card
+                  tile
+                  outlined
+                  class="mb-10 pa-2"
+                  color="transparent"
+                  data-aos="fade-up"
+                >
                   <h2 class="text-h5 success--text">About Us</h2>
                   <div
                     class="grey--text text--darken-3 text-h6 font-weight-light font-weight-light"
@@ -93,7 +119,7 @@
                 <v-card color="#C8E6C9" tile>
                   <v-row class="pa-4">
                     <v-col cols="3">
-                      <v-card outlined tile height="100%">
+                      <v-card outlined tile height="100%" data-aos="fade-right">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
                             >mdi-chart-areaspline</v-icon
@@ -111,7 +137,7 @@
                       </v-card>
                     </v-col>
                     <v-col cols="3">
-                      <v-card outlined tile height="100%">
+                      <v-card outlined tile height="100%" data-aos="fade-right">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
                             >mdi-office-building-marker-outline</v-icon
@@ -129,7 +155,7 @@
                       </v-card>
                     </v-col>
                     <v-col cols="3">
-                      <v-card outlined tile height="100%">
+                      <v-card outlined tile height="100%" data-aos="fade-left">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
                             >mdi-account-group-outline</v-icon
@@ -147,7 +173,7 @@
                       </v-card>
                     </v-col>
                     <v-col cols="3">
-                      <v-card outlined tile height="100%">
+                      <v-card outlined tile height="100%" data-aos="fade-left">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
                             >mdi-cog-outline</v-icon
@@ -173,7 +199,7 @@
       </v-container>
     </section>
     <!-- AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT -->
-    <section>
+    <section id="agrolog__projects">
       <v-container>
         <v-card tile outlined color="white">
           <h2
@@ -296,7 +322,7 @@
                 contain
                 src="../assets/undraw_services_5tv9(2).svg"
               ></v-img> -->
-              <v-card tile outlined>
+              <v-card tile outlined data-aos="flip-up">
                 <v-img
                   height="300"
                   width="100%"
@@ -305,13 +331,18 @@
               </v-card>
             </v-col>
             <v-col cols="6">
-              <div class="text-center mt-16 text-h6 font-weight-light">
+              <div
+                class="text-center mt-16 text-h6 font-weight-light"
+                data-aos="flip-down"
+              >
                 Agrolog provides its community of farmers servces in both
                 backward and forward integration components of the value chains.
                 For details on services click below.
               </div>
               <div class="text-center mt-4">
-                <v-btn color="#f9952d" small outlined tile>Click here</v-btn>
+                <v-btn @click="goServices()" color="#f9952d" small outlined tile
+                  >Click here</v-btn
+                >
               </div>
             </v-col>
           </v-row>
@@ -329,18 +360,28 @@
         <v-card-text>
           <v-row>
             <v-col cols="6">
-              <div class="text-center mt-16 text-h6 font-weight-light">
+              <div
+                class="text-center mt-16 text-h6 font-weight-light"
+                data-aos="flip-down"
+              >
                 AgroLog is open to partnership with institutional as well as
                 individual investors and Donor organisations to structure
                 financing packages for its small holder farmer members for
                 returns and social impact. For details click below.
               </div>
               <div class="text-center mt-4">
-                <v-btn color="success" small outlined tile>Click here</v-btn>
+                <v-btn
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdkINs4WMlK4bSQ6bljdtKzHVBIpvYVNUXRK_9PFs5XKIsFgA/viewform"
+                  color="success"
+                  small
+                  outlined
+                  tile
+                  >Click here</v-btn
+                >
               </div>
             </v-col>
             <v-col cols="6">
-              <v-card tile outlined color="white">
+              <v-card tile outlined color="white" data-aos="flip-up">
                 <!-- <v-card color="transparent" tile outlined>
                   <v-img
                     height="300"
@@ -351,7 +392,7 @@
                 <v-img
                   height="300"
                   contain
-                  src="../assets/undraw_Forms_re_pkrt.svg"
+                  src="../assets/undraw_fill_forms_yltj.svg"
                 ></v-img>
               </v-card>
             </v-col>
@@ -376,6 +417,7 @@
                 elevation="10"
                 color="transparent"
                 class="pt-4"
+                data-aos="zoom-in"
               >
                 <div
                   class="white--text d-flex flex-column align-center justify-center  my-4"
@@ -425,7 +467,6 @@
             </v-icon>
           </v-btn>
         </v-card-text>
-
         <v-card-text class="white--text pt-0 body-1 font-weight-light">
           Agrolog Limited (RC 1527119) is a newly established agribusiness
           company specialized in production and trade of agricultural
@@ -451,6 +492,11 @@ export default {
   data: () => ({
     icons: ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram'],
   }),
+  methods: {
+    goServices() {
+      this.$router.push('/service')
+    },
+  },
 }
 </script>
 
@@ -545,5 +591,17 @@ export default {
   &:hover &__photo:not(:hover) {
     transform: scale(0.95);
   }
+}
+
+.slide-fade-enter-active {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.slide-fade-leave-active {
+  transition: all 0.2s ease-out;
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(1000px);
+  opacity: 0;
 }
 </style>

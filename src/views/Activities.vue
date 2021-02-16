@@ -21,54 +21,64 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="2">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Farming
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="2">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Commodity trade
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="2">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Agrologistics
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="3">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Value chain development
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="3">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Cluster management
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="3">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Farm inputs management
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="3">
-                  <v-card shaped outlined class="orange lighten-5">
-                    <v-card-title class="font-weight-light body-1">
-                      Vocational training
-                    </v-card-title>
-                  </v-card>
+                <v-col cols="6">
+                  <v-img
+                    contain
+                    src="../assets/undraw_environmental_study_skau.svg"
+                  ></v-img
+                ></v-col>
+                <v-col cols="6">
+                  <v-row>
+                    <v-col cols="3">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Farming
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="4">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Commodity trade
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="4">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Agrologistics
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="6">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Value chain development
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="5">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Cluster management
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="6">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Farm inputs management
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="5">
+                      <v-card outlined class="orange lighten-5">
+                        <v-card-title class="font-weight-light body-1">
+                          Vocational training
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                  </v-row>
                 </v-col>
               </v-row>
               <h2
