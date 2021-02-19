@@ -4,7 +4,9 @@
       <v-row>
         <v-col cols="12">
           <v-card outlined tile class="custom__card">
-            <h2 class="text-center text-h2 mt-12 white--text font-weight-thin">
+            <h2
+              class="text-center text-h3 text-md-h2 mt-12 white--text font-weight-thin"
+            >
               Social Safety
               <span class="warning--text font-weight-light">Nets</span>
             </h2>
@@ -26,7 +28,7 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="4">
+                <v-col cols="12" md="4">
                   <v-card tile height="100%">
                     <v-card-title class="d-flex justify-center">
                       <v-icon size="100" color="orange lighten-2"
@@ -46,7 +48,7 @@
                     </v-card-text>
                   </v-card>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="12" md="4">
                   <v-card tile height="100%">
                     <v-card-title class="d-flex justify-center">
                       <v-icon size="100" color="orange lighten-2"
@@ -68,7 +70,7 @@
                     </v-card-text>
                   </v-card>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="12" md="4">
                   <v-card tile height="100%">
                     <v-card-title class="d-flex justify-center">
                       <v-icon size="100" color="orange lighten-2"

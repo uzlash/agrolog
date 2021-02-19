@@ -4,7 +4,9 @@
       <v-row>
         <v-col cols="12">
           <v-card outlined tile class="custom__card">
-            <h2 class="text-center text-h2 mt-12 white--text font-weight-thin">
+            <h2
+              class="text-center text-h3 text-md-h2 mt-12 white--text font-weight-thin"
+            >
               <span class="warning--text font-weight-light">Our</span> Business
               Partners
             </h2>
@@ -30,17 +32,22 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="4">
+                <v-col cols="12" md="4">
                   <v-img
                     contain
                     height="492"
                     src="../assets/undraw_agreement_aajr.svg"
                   ></v-img>
                 </v-col>
-                <v-col cols="8">
+                <v-col cols="12" md="8">
                   <v-row>
-                    <v-col cols="6" v-for="(partner, i) in partners" :key="i">
-                      <v-card tile outlined class="green lighten-5">
+                    <v-col
+                      cols="12"
+                      sm="6"
+                      v-for="(partner, i) in partners"
+                      :key="i"
+                    >
+                      <v-card tile class="green lighten-5">
                         <v-card-title class="font-weight-light body-1">
                           {{ partner.name }}
                         </v-card-title>
@@ -54,6 +61,40 @@
         </v-col>
       </v-row>
     </v-container>
+    <div class="white mt-1">
+      <v-row class="pa-2">
+        <v-col
+          cols="12"
+          sm="4"
+          md="3"
+          class="d-flex justify-center align-center"
+        >
+          <v-card color="transparent">
+            <h3 class="text-h6 text-md-h5 text-center font-weight-light">
+              Trusted fully by our partners across Africa & beyond
+            </h3>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="4" md="1">
+          <v-img contain src="../assets/greysoft.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="1">
+          <v-img contain src="../assets/gurara.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="2">
+          <v-img contain src="../assets/harvestfield.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="2">
+          <v-img contain src="../assets/nabg.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="2">
+          <v-img contain src="../assets/ocp.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="1">
+          <v-img contain src="../assets/palm.jpeg" height="100"></v-img>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 
@@ -73,6 +114,9 @@ export default {
       { name: 'Nigerian Agro Allied Farmers Association' },
       { name: 'Cattle Breeders Association of Nigeria' },
       { name: 'Poultry Association of Nigeria' },
+      { name: 'women helping women cooperative' },
+      { name: 'Salama women ginger cooperative' },
+      { name: 'Matankadi farms' },
     ],
   }),
 }

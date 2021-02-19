@@ -20,7 +20,13 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="4" v-for="(item, i) in hubServices" :key="i">
+                <v-col
+                  cols="12"
+                  sm="6"
+                  md="4"
+                  v-for="(item, i) in hubServices"
+                  :key="i"
+                >
                   <v-card tile outlined class="green lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       {{ item.name }}
@@ -29,7 +35,7 @@
                 </v-col>
               </v-row>
               <v-row>
-                <v-col cols="6">
+                <v-col cols="12" sm="6">
                   <v-card tile outlined class="green lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       Produce Aggregation, Cleaning, washing, slicing,Drying
@@ -37,7 +43,7 @@
                     </v-card-title>
                   </v-card>
                 </v-col>
-                <v-col cols="6">
+                <v-col cols="12" sm="6">
                   <v-card tile outlined class="green lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       Standardization and policy engagement with Government
@@ -54,7 +60,13 @@
             </h2>
             <v-card-text class="body-1 pt-0">
               <v-row>
-                <v-col cols="4" v-for="(item, i) in serviceCenters" :key="i">
+                <v-col
+                  cols="12"
+                  sm="6"
+                  md="4"
+                  v-for="(item, i) in serviceCenters"
+                  :key="i"
+                >
                   <v-card tile outlined class="orange lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       {{ item.name }}
@@ -63,14 +75,14 @@
                 </v-col>
               </v-row>
               <v-row>
-                <v-col cols="6">
+                <v-col cols="12" sm="6">
                   <v-card tile outlined class="orange lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       Postharvest processing, standardization and packaging
                     </v-card-title>
                   </v-card>
                 </v-col>
-                <v-col cols="6">
+                <v-col cols="12" sm="6">
                   <v-card tile outlined class="orange lighten-5">
                     <v-card-title class="font-weight-light body-1">
                       Support Women and youth in Enterpreneurial Development

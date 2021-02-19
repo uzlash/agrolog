@@ -20,13 +20,14 @@
               OUR TEAM
             </h2>
             <v-row no-gutters justify="center">
-              <v-col cols="3" class="d-flex flex-column align-center">
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
                 <v-avatar size="200">
-                  <v-img
-                    height="100%"
-                    src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"
-                  >
-                  </v-img
+                  <v-img height="100%" src="../assets/ceo.jpeg"> </v-img
                 ></v-avatar>
                 <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
                   Dr. Manzo Maigari
@@ -35,49 +36,118 @@
                   Chief Executive Officer
                 </p>
               </v-col>
-              <v-col cols="3" class="d-flex flex-column align-center">
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
                 <v-avatar size="200">
-                  <v-img
-                    height="100%"
-                    src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"
-                  >
-                  </v-img
+                  <v-img height="100%" src="../assets/cto.jpeg"> </v-img
                 ></v-avatar>
                 <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
-                  Dr. Manzo Maigari
+                  Isah Raphael
                 </p>
                 <p class="grey--text text--darken-1 text-center">
-                  Chief Executive Officer
+                  Chief Technology Officer
                 </p>
               </v-col>
-              <v-col cols="3" class="d-flex flex-column align-center">
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
                 <v-avatar size="200">
-                  <v-img
-                    height="100%"
-                    src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"
-                  >
-                  </v-img
+                  <v-img height="100%" src="../assets/warehouse.jpeg"> </v-img
                 ></v-avatar>
                 <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
-                  Dr. Manzo Maigari
+                  Yashim Samuel
                 </p>
                 <p class="grey--text text--darken-1 text-center">
-                  Chief Executive Officer
+                  Warehouse Manager
                 </p>
               </v-col>
-              <v-col cols="3" class="d-flex flex-column align-center">
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
                 <v-avatar size="200">
-                  <v-img
-                    height="100%"
-                    src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"
-                  >
-                  </v-img
+                  <v-img height="100%" src="../assets/admin.jpeg"> </v-img
                 ></v-avatar>
                 <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
-                  Dr. Manzo Maigari
+                  Israella Enyi
                 </p>
                 <p class="grey--text text--darken-1 text-center">
-                  Chief Executive Officer
+                  Admin Manager
+                </p>
+              </v-col>
+            </v-row>
+            <v-row no-gutters justify="center">
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
+                <v-avatar size="200">
+                  <v-img height="100%" src="../assets/consultant.jpeg"> </v-img
+                ></v-avatar>
+                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
+                  Prof. Sambo Banake
+                </p>
+                <p class="grey--text text--darken-1 text-center">
+                  Consultant Agronomist
+                </p>
+              </v-col>
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
+                <v-avatar size="200">
+                  <v-img height="100%" src="../assets/operations.jpeg"> </v-img
+                ></v-avatar>
+                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
+                  Engr. Aaron Shekarau
+                </p>
+                <p class="grey--text text--darken-1 text-center">
+                  Operations Manager
+                </p>
+              </v-col>
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
+                <v-avatar size="200">
+                  <v-img height="100%" src="../assets/ceo.jpeg"> </v-img
+                ></v-avatar>
+                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
+                  John Lorem
+                </p>
+                <p class="grey--text text--darken-1 text-center">
+                  Project Manager
+                </p>
+              </v-col>
+              <v-col
+                cols="12"
+                sm="6"
+                md="3"
+                class="d-flex flex-column align-center"
+              >
+                <v-avatar size="200">
+                  <v-img height="100%" src="../assets/cto.jpeg"> </v-img
+                ></v-avatar>
+                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
+                  Jane Lorem
+                </p>
+                <p class="grey--text text--darken-1 text-center">
+                  Consultant Manager
                 </p>
               </v-col>
             </v-row>
@@ -87,9 +157,9 @@
               WHO WE ARE & WHAT WE DO
             </h2>
             <v-row>
-              <v-col cols="8">
+              <v-col cols="12" md="8">
                 <p
-                  class="px-16 text-h6 font-weight-light grey--text text--darken-3"
+                  class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
                 >
                   Agrolog Limited (RC 1527119) is a newly established
                   agribusiness company specialized in production and trade of
@@ -116,18 +186,18 @@
                   include commodities across the spectrum of agribusiness.
                 </p>
               </v-col>
-              <v-col cols="4" class="d-flex flex-column">
+              <v-col cols="12" md="4" class="d-flex flex-column">
                 <!-- <v-avatar size="200" tile color="green"> -->
                 <v-img
                   class="ma-4"
                   contain
                   src="../assets/undraw_team_spirit_hrr4.svg"
                 ></v-img>
-                <v-img
-                  class="ma-4"
+                <!-- <v-img
+                  class="ma-4 hidden-md-and-up"
                   contain
                   src="../assets/undraw_team_work_k80m.svg"
-                ></v-img>
+                ></v-img> -->
                 <!-- </v-avatar> -->
               </v-col>
             </v-row>
@@ -137,12 +207,12 @@
               OUR MISSION
             </h2>
             <v-row>
-              <v-col cols="6">
+              <v-col cols="12" md="4" class="d-flex flex-column">
                 <v-img contain src="../assets/mission.svg"></v-img>
               </v-col>
-              <v-col cols="6">
+              <v-col cols="12" md="8">
                 <p
-                  class="px-16 text-h6 font-weight-light grey--text text--darken-3"
+                  class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
                 >
                   Agrolog Limited (RC 1527119) is a newly established
                   agribusiness company specialized in production and trade of
@@ -164,9 +234,9 @@
               OUR VISION
             </h2>
             <v-row>
-              <v-col cols="6">
+              <v-col cols="12" md="8">
                 <p
-                  class="px-16 text-h6 font-weight-light grey--text text--darken-3"
+                  class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
                 >
                   Agrolog Limited (RC 1527119) is a newly established
                   agribusiness company specialized in production and trade of
@@ -181,7 +251,7 @@
                   excellence that guarantees transparency from farm to table.
                 </p>
               </v-col>
-              <v-col cols="6">
+              <v-col cols="12" md="4" class="d-flex flex-column">
                 <v-img contain src="../assets/vision.svg"></v-img>
               </v-col>
             </v-row>

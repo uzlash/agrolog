@@ -21,13 +21,13 @@
             </h2>
             <v-card-text>
               <v-row>
-                <v-col cols="6">
+                <v-col cols="12" md="6">
                   <v-img src="../assets/contact_us.svg"></v-img>
                 </v-col>
-                <v-col>
+                <v-col cols="12" md="6">
                   <v-form @submit.prevent ref="form">
                     <v-row>
-                      <v-col cols="10">
+                      <v-col cols="12">
                         <v-text-field
                           hide-details="auto"
                           v-model="name"
@@ -40,7 +40,7 @@
                           :rules="[rules.required, rules.counter]"
                         />
                       </v-col>
-                      <v-col cols="10">
+                      <v-col cols="12">
                         <v-text-field
                           hide-details="auto"
                           v-model="email"
@@ -54,7 +54,7 @@
                           :rules="[rules.required, rules.email]"
                         />
                       </v-col>
-                      <v-col cols="10">
+                      <v-col cols="12">
                         <v-textarea
                           auto-grow
                           clearable
@@ -89,7 +89,7 @@
             </h2>
             <v-card-text>
               <v-row>
-                <v-col cols="6">
+                <v-col cols="12" md="6">
                   <v-card>
                     <v-card-title>
                       <v-icon color="success">mdi-email</v-icon>
@@ -99,7 +99,7 @@
                     </v-card-title>
                   </v-card>
                 </v-col>
-                <v-col cols="6">
+                <v-col cols="12" md="6">
                   <v-card>
                     <v-card-title>
                       <v-icon color="success">mdi-phone</v-icon>

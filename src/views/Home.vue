@@ -2,7 +2,7 @@
   <div>
     <header class="custom__bg">
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <v-card
             outlined
             tile
@@ -10,7 +10,9 @@
             class="pa-10 d-flex align-center justify-center mt-n16"
           >
             <v-card outlined tile color="transparent">
-              <div class="text-h1 font-weight-light success--text">
+              <div
+                class="text-h3 text-md-h2 text-lg-h1 font-weight-light success--text"
+              >
                 AGROLOG
               </div>
               <p class="text-h5 font-weight-light grey--text text--darken-3">
@@ -51,18 +53,18 @@
         <v-card
           outlined
           tile
-          height="500px"
+          min-height="500px"
           color="white"
-          v-animate-onscroll="'flip'"
+          data-aos="fade-up"
         >
           <h2
-            class="text-h4 font-weight-light pt-8 grey--text text--darken-3 text-center custom__heading-green"
+            class="text-h5 text-md-h4 font-weight-light pt-8 grey--text text--darken-3 text-center custom__heading-green"
           >
             WHO WE ARE
           </h2>
           <v-card-text class="mt-12">
             <v-row>
-              <v-col cols="6">
+              <v-col cols="12" md="6">
                 <v-card
                   tile
                   outlined
@@ -72,7 +74,7 @@
                 >
                   <h2 class="text-h5 success--text">About Us</h2>
                   <div
-                    class="grey--text text--darken-3 text-h6 font-weight-light font-weight-light"
+                    class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light font-weight-light"
                   >
                     AGROLOG is a company registered in Nigeria with a vision to
                     create social innovations that will lift the rural poor out
@@ -83,7 +85,16 @@
                   </div>
                 </v-card>
               </v-col>
-              <v-col>
+              <v-col cols="12" sm="4" class="hidden-md-and-up">
+                <v-img src="../assets/ginger.jpeg"></v-img>
+              </v-col>
+              <v-col cols="12" sm="4" class="hidden-md-and-up">
+                <v-img src="../assets/ginger2.jpeg"></v-img>
+              </v-col>
+              <v-col cols="12" sm="4" class="hidden-md-and-up">
+                <v-img src="../assets/ginger3.jpeg"></v-img>
+              </v-col>
+              <v-col cols="12" md="6" class="hidden-sm-and-down">
                 <div class="composition">
                   <v-img
                     class="composition__photo composition__photo--p1"
@@ -109,7 +120,7 @@
       <v-container>
         <v-card tile outlined color="white">
           <h2
-            class="text-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-orange"
+            class="text-h5 text-md-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-orange"
           >
             WHAT WE DO
           </h2>
@@ -118,7 +129,7 @@
               <v-col cols="12" class="mt-4">
                 <v-card color="#C8E6C9" tile>
                   <v-row class="pa-4">
-                    <v-col cols="3">
+                    <v-col cols="12" sm="6" md="6" lg="3">
                       <v-card outlined tile height="100%" data-aos="fade-right">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
@@ -126,7 +137,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text class="body-1">
+                        <v-card-text class="text-body-2 text-md-body-1">
                           We are growing community of smallholder farmers that
                           produce quality Ginger/Tumeric and soy beans
                           sustainably. All produce that meet the AgroLog seal of
@@ -136,7 +147,7 @@
                         </v-card-text>
                       </v-card>
                     </v-col>
-                    <v-col cols="3">
+                    <v-col cols="12" sm="6" md="6" lg="3">
                       <v-card outlined tile height="100%" data-aos="fade-right">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
@@ -144,7 +155,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text class="body-1">
+                        <v-card-text class="text-body-2 text-md-body-1">
                           We operate a Ginger Hub at Kachia in Kaduna state
                           where produce is evaluated, graded, branded for the
                           market as well as for value addition. On the forward
@@ -154,7 +165,7 @@
                         </v-card-text>
                       </v-card>
                     </v-col>
-                    <v-col cols="3">
+                    <v-col cols="12" sm="6" md="6" lg="3">
                       <v-card outlined tile height="100%" data-aos="fade-left">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
@@ -162,7 +173,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text class="body-1">
+                        <v-card-text class="text-body-2 text-md-body-1">
                           Our community of farmers are organized in cooperative
                           clusters across 12 Local Government Areas that grow
                           ginger in Kaduna state. We have 10 service centers
@@ -172,7 +183,7 @@
                         </v-card-text>
                       </v-card>
                     </v-col>
-                    <v-col cols="3">
+                    <v-col cols="12" sm="6" md="6" lg="3">
                       <v-card outlined tile height="100%" data-aos="fade-left">
                         <v-card-title class="d-flex flex-column align-center">
                           <v-icon color="#f9952d" size="50"
@@ -180,7 +191,7 @@
                           >
                         </v-card-title>
                         <v-divider></v-divider>
-                        <v-card-text class="body-1">
+                        <v-card-text class="text-body-2 text-md-body-1">
                           The core of that tradition being aflatoxin free,
                           quality produce that meets global best practices and
                           standards. The overarching goal is create an
@@ -203,20 +214,20 @@
       <v-container>
         <v-card tile outlined color="white">
           <h2
-            class="text-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
+            class="text-h5 text-md-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
           >
             AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT
           </h2>
           <v-card-text>
             <v-carousel
               show-arrows
-              height="400"
+              height="auto"
               hide-delimiter-background
               light
             >
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -226,7 +237,7 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -240,7 +251,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -250,7 +261,7 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -264,7 +275,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -274,7 +285,7 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -288,7 +299,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="6">
+                  <v-col cols="12" sm="6">
                     <iframe
                       width="100%"
                       height="310"
@@ -310,13 +321,13 @@
     <section class="grey lighten-4">
       <v-card tile outlined color="white">
         <h2
-          class="text-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
+          class="text-h5 text-md-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
         >
           OUR SERVICES
         </h2>
         <v-card-text>
           <v-row>
-            <v-col cols="6">
+            <v-col cols="12" sm="6">
               <!-- <v-img
                 height="300"
                 contain
@@ -330,9 +341,9 @@
                 ></v-img>
               </v-card>
             </v-col>
-            <v-col cols="6">
+            <v-col cols="12" sm="6">
               <div
-                class="text-center mt-16 text-h6 font-weight-light"
+                class="text-center mt-16 text-body-1 text-md-h6 font-weight-light"
                 data-aos="flip-down"
               >
                 Agrolog provides its community of farmers servces in both
@@ -353,15 +364,15 @@
     <section class="grey lighten-4">
       <v-card tile outlined color="grey lighten-4">
         <h2
-          class="text-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
+          class="text-h5 text-md-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
         >
           HOW YOU CAN JOIN US
         </h2>
         <v-card-text>
           <v-row>
-            <v-col cols="6">
+            <v-col cols="12" sm="6">
               <div
-                class="text-center mt-16 text-h6 font-weight-light"
+                class="text-center mt-16 text-body-1 text-md-h6 font-weight-light"
                 data-aos="flip-down"
               >
                 AgroLog is open to partnership with institutional as well as
@@ -380,7 +391,7 @@
                 >
               </div>
             </v-col>
-            <v-col cols="6">
+            <v-col cols="12" sm="6">
               <v-card tile outlined color="white" data-aos="flip-up">
                 <!-- <v-card color="transparent" tile outlined>
                   <v-img
@@ -402,28 +413,31 @@
     </section>
     <!-- OUR PROJECTIONS -->
     <section class="grey lighten-4">
-      <v-card tile outlined color="white" class="custom__bg">
+      <v-card tile outlined color="white" class="custom__bg-1">
         <h2
-          class="text-h4 font-weight-light pt-4 white--text text-center custom__heading-white"
+          class="text-h5 text-md-h4 font-weight-light pt-4 white--text text-center custom__heading-white"
         >
           <span class="warning--text font-weight-light">OUR</span> PROJECTIONS
         </h2>
         <v-card-text>
           <v-row justify="center" align="center">
-            <v-col cols="8">
+            <v-col cols="10">
               <v-card
-                height="400"
                 tile
                 elevation="10"
                 color="transparent"
-                class="pt-4"
+                class="py-4"
                 data-aos="zoom-in"
               >
                 <div
                   class="white--text d-flex flex-column align-center justify-center  my-4"
                 >
-                  <span class="text-h2 font-weight-thin">500,000</span>
-                  <span class="text-h6 font-weight-light">
+                  <span class="text-h4 text-sm-h3 text-md-h2 font-weight-thin"
+                    >500,000</span
+                  >
+                  <span
+                    class="text-body-2 text-sm-body-1 text-md-h6 font-weight-light text-center"
+                  >
                     Youth and women farmers targeted by 2025</span
                   >
                 </div>
@@ -431,8 +445,12 @@
                 <div
                   class="white--text d-flex flex-column align-center justify-center my-4"
                 >
-                  <span class="text-h2 font-weight-thin">5,000,000+</span>
-                  <span class="text-h6 font-weight-light">
+                  <span class="text-h4 text-sm-h3 text-md-h2 font-weight-thin"
+                    >5,000,000+</span
+                  >
+                  <span
+                    class="text-body-2 text-sm-body-1 text-md-h6 font-weight-light text-center"
+                  >
                     Jobs to be created</span
                   >
                 </div>
@@ -440,8 +458,12 @@
                 <div
                   class="white--text d-flex flex-column align-center justify-center  my-4"
                 >
-                  <span class="text-h2 font-weight-thin">2,500,000</span>
-                  <span class="text-h6 font-weight-light">
+                  <span class="text-h4 text-sm-h3 text-md-h2 font-weight-thin"
+                    >2,500,000</span
+                  >
+                  <span
+                    class="text-body-2 text-sm-body-1 text-md-h6 font-weight-light text-center"
+                  >
                     Youths and women to gain social security through the Social
                     Safety Nets</span
                   >
@@ -467,7 +489,9 @@
             </v-icon>
           </v-btn>
         </v-card-text>
-        <v-card-text class="white--text pt-0 body-1 font-weight-light">
+        <v-card-text
+          class="white--text pt-0 text-body-2 text-sm-body-1 font-weight-light"
+        >
           Agrolog Limited (RC 1527119) is a newly established agribusiness
           company specialized in production and trade of agricultural
           commodities, agrologistics, various agricultural investment and farm
@@ -513,6 +537,20 @@ export default {
   background-attachment: fixed;
   height: calc(100vh - 52px);
 }
+
+.custom__bg-1 {
+  background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
+    url('../assets/ginger.jpeg');
+  -webkit-background: linear-gradient(
+      rgba(0, 148, 50, 0.9),
+      rgba(0, 148, 146, 0.7)
+    ),
+    url('../assets/ginger.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80%;
+}
+
 .custom__divider {
   width: 110px;
 }
