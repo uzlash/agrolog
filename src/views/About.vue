@@ -85,7 +85,7 @@
                 </p>
               </v-col>
             </v-row>
-            <v-row no-gutters justify="center">
+            <v-row no-gutters justify="start">
               <v-col
                 cols="12"
                 sm="6"
@@ -116,38 +116,6 @@
                 </p>
                 <p class="grey--text text--darken-1 text-center">
                   Operations Manager
-                </p>
-              </v-col>
-              <v-col
-                cols="12"
-                sm="6"
-                md="3"
-                class="d-flex flex-column align-center"
-              >
-                <v-avatar size="200">
-                  <v-img height="100%" src="../assets/ceo.jpeg"> </v-img
-                ></v-avatar>
-                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
-                  John Lorem
-                </p>
-                <p class="grey--text text--darken-1 text-center">
-                  Project Manager
-                </p>
-              </v-col>
-              <v-col
-                cols="12"
-                sm="6"
-                md="3"
-                class="d-flex flex-column align-center"
-              >
-                <v-avatar size="200">
-                  <v-img height="100%" src="../assets/cto.jpeg"> </v-img
-                ></v-avatar>
-                <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
-                  Jane Lorem
-                </p>
-                <p class="grey--text text--darken-1 text-center">
-                  Consultant Manager
                 </p>
               </v-col>
             </v-row>

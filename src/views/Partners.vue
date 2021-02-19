@@ -69,14 +69,11 @@
           md="3"
           class="d-flex justify-center align-center"
         >
-          <v-card color="transparent">
+          <v-card color="transparent" class="pa-2" tile>
             <h3 class="text-h6 text-md-h5 text-center font-weight-light">
               Trusted fully by our partners across Africa & beyond
             </h3>
           </v-card>
-        </v-col>
-        <v-col cols="12" sm="4" md="1">
-          <v-img contain src="../assets/greysoft.jpeg" height="100"></v-img>
         </v-col>
         <v-col cols="12" sm="4" md="1">
           <v-img contain src="../assets/gurara.jpeg" height="100"></v-img>
@@ -91,7 +88,10 @@
           <v-img contain src="../assets/ocp.jpeg" height="100"></v-img>
         </v-col>
         <v-col cols="12" sm="4" md="1">
-          <v-img contain src="../assets/palm.jpeg" height="100"></v-img>
+          <v-img contain src="../assets/palm_valley.jpeg" height="100"></v-img>
+        </v-col>
+        <v-col cols="12" sm="4" md="1">
+          <v-img contain src="../assets/greysoft.jpeg" height="100"></v-img>
         </v-col>
       </v-row>
     </div>

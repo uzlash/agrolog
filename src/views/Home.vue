@@ -479,13 +479,14 @@
       <v-card flat tile class="grey darken-3 white--text text-center">
         <v-card-text>
           <v-btn
-            v-for="icon in icons"
-            :key="icon"
+            v-for="item in footerItems"
+            :key="item.href"
             class="mx-4 white--text"
             icon
+            :href="item.href"
           >
             <v-icon size="24px">
-              {{ icon }}
+              {{ item.icon }}
             </v-icon>
           </v-btn>
         </v-card-text>
@@ -504,7 +505,13 @@
 
         <v-card-text class="white--text body-1">
           {{ new Date().getFullYear() }} —
-          <strong class="success--text">Agrolog</strong>
+          <strong class="success--text mr-4">Agrolog</strong>
+          <span>
+            <v-btn small outlined href="https://agrolog.farm:2096/">
+              <v-icon class="mr-1">mdi-email</v-icon>
+              <span class="text-capitalize">Check Mail</span>
+            </v-btn>
+          </span>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -514,7 +521,15 @@
 <script>
 export default {
   data: () => ({
-    icons: ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram'],
+    footerItems: [
+      { icon: 'mdi-facebook', href: 'https://www.facebook.com/agrolog3' },
+      { icon: 'mdi-twitter', href: 'https://twitter.com/agrolog3' },
+      {
+        icon: 'mdi-linkedin',
+        href: 'https://www.linkedin.com/in/agrolog-farm-819549207',
+      },
+      { icon: 'mdi-instagram', href: 'https://www.instagram.com/agrolog300/' },
+    ],
   }),
   methods: {
     goServices() {
