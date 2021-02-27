@@ -161,66 +161,48 @@
                   contain
                   src="../assets/undraw_team_spirit_hrr4.svg"
                 ></v-img>
-                <!-- <v-img
-                  class="ma-4 hidden-md-and-up"
-                  contain
-                  src="../assets/undraw_team_work_k80m.svg"
-                ></v-img> -->
-                <!-- </v-avatar> -->
               </v-col>
             </v-row>
-            <h2
-              class="text-h6 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
-            >
-              OUR MISSION
-            </h2>
             <v-row>
-              <v-col cols="12" md="4" class="d-flex flex-column">
-                <v-img contain src="../assets/mission.svg"></v-img>
-              </v-col>
-              <v-col cols="12" md="8">
-                <p
-                  class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
+              <v-col cols="12" md="6">
+                <h2
+                  class="text-h6 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
                 >
-                  Agrolog Limited (RC 1527119) is a newly established
-                  agribusiness company specialized in production and trade of
-                  agricultural commodities, agrologistics, various agricultural
-                  investment and farm management. Innovations that assure the
-                  delivery of wholesome food to consumers constitute the value
-                  proposition which AgroLog brings to its clients. Institutional
-                  voids constitute great impediments in food systems, creating
-                  chaos and disruptions in the ecosystem. The desire to address
-                  this has taken us back to the fundamentals of food production:
-                  THE FARM. AgroLog seeks to entrench a culture of operational
-                  excellence that guarantees transparency from farm to table.
-                </p>
+                  OUR MISSION
+                </h2>
+                <v-row>
+                  <v-col cols="12" md="4" class="d-flex flex-column">
+                    <v-img contain src="../assets/mission.svg"></v-img>
+                  </v-col>
+                  <v-col cols="12" md="8">
+                    <p
+                      class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
+                    >
+                      Our mission is to create platforms, opportunities and
+                      sustainable agribusinesses that will drive economic
+                      growth.
+                    </p>
+                  </v-col>
+                </v-row>
               </v-col>
-            </v-row>
-            <h2
-              class="text-h6 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
-            >
-              OUR VISION
-            </h2>
-            <v-row>
-              <v-col cols="12" md="8">
-                <p
-                  class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
+              <v-col cols="12" md="6">
+                <h2
+                  class="text-h6 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
                 >
-                  Agrolog Limited (RC 1527119) is a newly established
-                  agribusiness company specialized in production and trade of
-                  agricultural commodities, agrologistics, various agricultural
-                  investment and farm management. Innovations that assure the
-                  delivery of wholesome food to consumers constitute the value
-                  proposition which AgroLog brings to its clients. Institutional
-                  voids constitute great impediments in food systems, creating
-                  chaos and disruptions in the ecosystem. The desire to address
-                  this has taken us back to the fundamentals of food production:
-                  THE FARM. AgroLog seeks to entrench a culture of operational
-                  excellence that guarantees transparency from farm to table.
-                </p>
-              </v-col>
-              <v-col cols="12" md="4" class="d-flex flex-column">
-                <v-img contain src="../assets/vision.svg"></v-img>
+                  OUR VISION
+                </h2>
+                <v-row>
+                  <v-col cols="12" md="8">
+                    <p
+                      class="px-16 text-body-1 text-md-h6 font-weight-light grey--text text--darken-3"
+                    >
+                      To innovate for inclusive and sustainable development.
+                    </p>
+                  </v-col>
+                  <v-col cols="12" md="4" class="d-flex flex-column">
+                    <v-img contain src="../assets/vision.svg"></v-img>
+                  </v-col>
+                </v-row>
               </v-col>
             </v-row>
           </v-card>

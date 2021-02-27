@@ -6,27 +6,28 @@
           <v-card
             outlined
             tile
+            color="transparent"
             height="100vh"
             class="pa-10 d-flex align-center justify-center mt-n16"
           >
             <v-card outlined tile color="transparent">
               <div
-                class="text-h3 text-md-h2 text-lg-h1 font-weight-light success--text"
+                class="text-h3 text-md-h2 text-lg-h1 font-weight-light white--text"
               >
                 AGROLOG
               </div>
-              <p class="text-h5 font-weight-light grey--text text--darken-3">
+              <p class="text-h5 font-weight-light grey--text text--lighten-3">
                 Creating innovations to lift and transform the poor into the
                 engine of economic growth.
               </p>
-              <v-divider class="custom__divider success">&nbsp;</v-divider>
+              <v-divider class="custom__divider white">&nbsp;</v-divider>
               <div class="mt-6">
                 <v-btn
                   href="#who__we__are"
                   tile
                   depressed
                   large
-                  color="success"
+                  color="white success--text"
                   class="mr-4"
                 >
                   EXPLORE
@@ -37,7 +38,7 @@
                   depressed
                   outlined
                   large
-                  color="green"
+                  color="white"
                 >
                   Learn More
                 </v-btn>
@@ -79,9 +80,9 @@
                     AGROLOG is a company registered in Nigeria with a vision to
                     create social innovations that will lift the rural poor out
                     of poverty and transform them into the engine of economic
-                    growth. Our Mission is to Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Ullam deleniti odio illo
-                    voluptatum consequuntur fuga!
+                    growth. Our mission is to create platforms, opportunities
+                    and sustainable agribusinesses that will drive economic
+                    growth.
                   </div>
                 </v-card>
               </v-col>
@@ -473,6 +474,51 @@
           </v-row>
         </v-card-text>
       </v-card>
+    </section>
+    <!-- OUR PARTNERS -->
+    <section id="agrolog__partners">
+      <div class="white mt-1">
+        <v-row class="pa-2">
+          <v-col
+            cols="12"
+            sm="4"
+            md="3"
+            class="d-flex justify-center align-center"
+          >
+            <v-card color="transparent" class="pa-2" tile>
+              <h3 class="text-h6 text-md-h5 text-center font-weight-light">
+                Trusted fully by our partners across Africa & beyond
+              </h3>
+            </v-card>
+          </v-col>
+          <v-col cols="12" sm="4" md="1">
+            <v-img contain src="../assets/gurara.jpeg" height="100"></v-img>
+          </v-col>
+          <v-col cols="12" sm="4" md="2">
+            <v-img
+              contain
+              src="../assets/harvestfield.jpeg"
+              height="100"
+            ></v-img>
+          </v-col>
+          <v-col cols="12" sm="4" md="2">
+            <v-img contain src="../assets/nabg.jpeg" height="100"></v-img>
+          </v-col>
+          <v-col cols="12" sm="4" md="2">
+            <v-img contain src="../assets/ocp.jpeg" height="100"></v-img>
+          </v-col>
+          <v-col cols="12" sm="4" md="1">
+            <v-img
+              contain
+              src="../assets/palm_valley.jpeg"
+              height="100"
+            ></v-img>
+          </v-col>
+          <v-col cols="12" sm="4" md="1">
+            <v-img contain src="../assets/greysoft.jpeg" height="100"></v-img>
+          </v-col>
+        </v-row>
+      </div>
     </section>
     <!-- FOOTER -->
     <v-footer dark padless>
