@@ -110,6 +110,18 @@
                   </v-card>
                 </v-col>
               </v-row>
+              <v-row>
+                <v-col cols="12" md="6">
+                  <v-card>
+                    <v-card-title>
+                      <v-icon color="success">mdi-office-building</v-icon>
+                      <span class="ml-2 text-h6 font-weight-light"
+                        >Head Office: 31, Gwari Avenue Barnawa Kaduna Nigeria
+                      </span>
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+              </v-row>
             </v-card-text>
           </v-card>
         </v-col>

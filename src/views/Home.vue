@@ -219,6 +219,17 @@
           >
             AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT
           </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light px-10"
+          >
+            In the wake of the Covid 19 pandemic Agrolog in partnership with
+            Mastercard Foundation launched an intervention (the Recovery and
+            Resilience Program) for 60,000 smallholder farmers (SMH) out of 1.2
+            million vulnerable indigenous ginger farming communities of Kaduna
+            state covering 12 local government areas. Many of these famers,
+            mainly youth and women, depend on their ginger as the sole source of
+            cash to support the production of other food crops.
+          </div>
           <v-card-text>
             <v-carousel
               show-arrows
@@ -546,7 +557,11 @@
           consumers constitute the value proposition which AgroLog brings to its
           clients.
         </v-card-text>
-
+        <div
+          class="text-center white--text pt-0 text-body-2 text-sm-body-1 font-weight-bold"
+        >
+          <span>Head Office: 31, Gwari Avenue Barnawa Kaduna Nigeria</span>
+        </div>
         <v-divider></v-divider>
 
         <v-card-text class="white--text body-1">
