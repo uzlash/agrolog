@@ -27,7 +27,8 @@
                 class="d-flex flex-column align-center"
               >
                 <v-avatar size="200">
-                  <v-img height="100%" src="../assets/ceo.jpeg"> </v-img
+                  <v-img height="100%" src="../assets/Manzo Maigari.jpg">
+                  </v-img
                 ></v-avatar>
                 <p class="mb-0 mt-2 grey--text text--darken-3 text-center">
                   Dr. Manzo Maigari
@@ -215,18 +216,18 @@
 <script>
 export default {
   data: () => ({}),
-}
+};
 </script>
 
 <style lang="scss">
 .custom__card {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   -webkit-background: linear-gradient(
       rgba(0, 148, 50, 0.9),
       rgba(0, 148, 146, 0.7)
     ),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   background-size: cover;
   //   background-attachment: fixed;
   height: 150px;
@@ -239,7 +240,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #009432;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -250,7 +251,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #f9952d;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -261,7 +262,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #ffffff;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;

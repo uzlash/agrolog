@@ -329,6 +329,40 @@
         </v-card>
       </v-container>
     </section>
+    <!-- EMPOWERING AFRICA -->
+    <section class="grey lighten-4">
+      <v-card tile outlined color="white">
+        <h2
+          class="text-h5 text-md-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
+        >
+          EMPOWERING AFRICA TO FEED THE FUTURE
+        </h2>
+        <v-card-text>
+          <v-row>
+            <v-col cols="12" sm="6">
+              <div
+                class="text-center mt-16 text-body-1 text-md-h6 font-weight-light"
+                data-aos="flip-down"
+              >
+                Agrolog is committed to empowering young and innovative minds
+                throughout Africa with requisite tools in Agribusiness as well
+                as providing mentorship in the sector for sustainable growth.
+              </div>
+            </v-col>
+            <v-col cols="12" sm="6">
+              <v-card flat tile>
+                <v-img
+                  contain
+                  height="300"
+                  width="100%"
+                  src="../assets/empowering.jpg"
+                ></v-img>
+              </v-card>
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </section>
     <!-- OUR SERVICES -->
     <section class="grey lighten-4">
       <v-card tile outlined color="white">
@@ -442,7 +476,7 @@
                 data-aos="zoom-in"
               >
                 <div
-                  class="white--text d-flex flex-column align-center justify-center  my-4"
+                  class="white--text d-flex flex-column align-center justify-center my-4"
                 >
                   <span class="text-h4 text-sm-h3 text-md-h2 font-weight-thin"
                     >500,000</span
@@ -468,7 +502,7 @@
                 </div>
                 <v-divider class="white mx-16"></v-divider>
                 <div
-                  class="white--text d-flex flex-column align-center justify-center  my-4"
+                  class="white--text d-flex flex-column align-center justify-center my-4"
                 >
                   <span class="text-h4 text-sm-h3 text-md-h2 font-weight-thin"
                     >2,500,000</span
@@ -583,32 +617,32 @@
 export default {
   data: () => ({
     footerItems: [
-      { icon: 'mdi-facebook', href: 'https://www.facebook.com/agrolog3' },
-      { icon: 'mdi-twitter', href: 'https://twitter.com/agrolog3' },
+      { icon: "mdi-facebook", href: "https://www.facebook.com/agrolog3" },
+      { icon: "mdi-twitter", href: "https://twitter.com/agrolog3" },
       {
-        icon: 'mdi-linkedin',
-        href: 'https://www.linkedin.com/in/agrolog-farm-819549207',
+        icon: "mdi-linkedin",
+        href: "https://www.linkedin.com/in/agrolog-farm-819549207",
       },
-      { icon: 'mdi-instagram', href: 'https://www.instagram.com/agrolog300/' },
+      { icon: "mdi-instagram", href: "https://www.instagram.com/agrolog300/" },
     ],
   }),
   methods: {
     goServices() {
-      this.$router.push('/service')
+      this.$router.push("/service");
     },
   },
-}
+};
 </script>
 
 <style lang="scss">
 .custom__bg {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   -webkit-background: linear-gradient(
       rgba(0, 148, 50, 0.9),
       rgba(0, 148, 146, 0.7)
     ),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: calc(100vh - 52px);
@@ -616,12 +650,12 @@ export default {
 
 .custom__bg-1 {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   -webkit-background: linear-gradient(
       rgba(0, 148, 50, 0.9),
       rgba(0, 148, 146, 0.7)
     ),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 80%;
@@ -635,7 +669,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #009432;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -646,7 +680,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #f9952d;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -657,7 +691,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #ffffff;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
