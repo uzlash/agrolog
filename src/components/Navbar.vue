@@ -16,7 +16,7 @@
           ></v-img>
         </v-app-bar-nav-icon>
         <v-toolbar-title class="text-h5 white--text">
-          Agrolog
+          AgroLog
         </v-toolbar-title>
       </div>
       <v-spacer></v-spacer>
