@@ -333,23 +333,22 @@
     <section class="grey lighten-4">
       <v-card tile outlined color="white">
         <h2
-          class="text-h5 text-md-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-orange"
+          class="text-h5 text-md-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
         >
           EMPOWERING AFRICA TO FEED THE FUTURE
         </h2>
         <v-card-text>
           <v-row>
-            <v-col cols="12" sm="6">
+            <v-col cols="12" sm="6" class="pt-0">
               <div
-                class="text-center mt-16 text-body-1 text-md-h6 font-weight-light"
-                data-aos="flip-down"
+                class="text-center mt-0 pt-0 mt-sm-16 text-body-1 text-md-h6 font-weight-light"
               >
                 Agrolog is committed to empowering young and innovative minds
                 throughout Africa with requisite tools in Agribusiness as well
                 as providing mentorship in the sector for sustainable growth.
               </div>
             </v-col>
-            <v-col cols="12" sm="6">
+            <v-col cols="12" sm="6" class="pt-0">
               <v-card flat tile>
                 <v-img
                   contain
